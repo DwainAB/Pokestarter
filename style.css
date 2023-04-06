@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+
+body{
+    background-color: #ADD8E6;
+}
+
+.main{
+    background: rgb(45,0,227);
+background: linear-gradient(225deg, rgba(45,0,227,1) 0%, rgba(109,107,255,1) 49%, rgba(222,227,0,1) 100%);
+
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h1{
+    padding: 2.5rem 1rem;
+    font-size: 4rem;
+    color: white;
+    font-family: 'Rubik Iso';
+    background: rgb(45,0,227);
+    background: linear-gradient(225deg, rgba(45,0,227,1) 0%, rgba(109,107,255,1) 49%, rgba(222,227,0,1) 100%);
+
+}
+
+h2{
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.imgAtc{
+    width: 100px;
+}
+.choices >div{
+    display: inline-block;
+    margin: 0 1rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.choices > div:hover{
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+#img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.textwin{
+    color: #9fe855;
+}
+
+.textlose{
+    color: red;
+}
+
+.banniere{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+footer{
+    margin-top: 50px;
+    height: 210px;
+    width: 100%;
+    background-color: #5C4FF8;
+}
+
+footer ul{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.li-footer{
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+#sendMail, #portfolio{
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+#sendMail:hover, #portfolio:hover{
+    transform: scale(110%);
+}
+
+#portfolio a{
+    color: white;
+    text-decoration: none;
+}
